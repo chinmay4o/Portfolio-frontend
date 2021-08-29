@@ -133,7 +133,13 @@ skills.addEventListener("click" , ulStyle);
 contact.addEventListener("click" , ulStyle);
 
 
-
+function ulClose() {
+  if(ul.style.right === "0px"){
+    ul.style.right = "-100%";
+  } else {
+    ul.style.right = "0px";
+  }
+}
 
 
 
