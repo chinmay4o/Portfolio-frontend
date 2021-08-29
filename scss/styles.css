@@ -689,8 +689,8 @@ body {
 @media only screen and (max-width: 550px) {
   .hero-container {
     padding: 50px 10px;
-    min-height: 100vh;
-    height: 110vh;
+    min-height: 740px;
+    height: 810px;
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: .3fr 1fr 0.6fr;
@@ -758,13 +758,14 @@ body {
     position: absolute;
   }
   .about_container {
-    min-height: 130vh;
+    min-height: 740px;
+    height: 810px;
     grid-gap: 30px;
-    padding: 10px 10px 30px 10px;
+    padding: 30px 10px 40px 10px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 0.6fr 1fr;
-        grid-template-rows: 0.6fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: "about-box2" "about-box1";
@@ -782,7 +783,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 2;
-    margin-top: -90px;
+    margin-top: -20px;
   }
   .about_container .about_box1 .about_circle {
     height: 330px;
@@ -794,7 +795,7 @@ body {
     left: 0px;
   }
   .about_container .about_box2 {
-    padding-top: 2.8rem;
+    padding-top: .5em;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: about-box2;
@@ -817,10 +818,11 @@ body {
     padding: 15px;
   }
   .skill_container {
-    padding: 35px 10px 50px 10px;
+    margin-top: 10px;
+    padding: 45px 10px 50px 10px;
     width: 100vw;
-    height: 115vh;
-    min-height: 100vh;
+    height: 740px;
+    min-height: 740px;
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 0.7fr 0.6fr;
@@ -832,10 +834,11 @@ body {
     background-color: #fff;
   }
   .skill_container .skill_box1 {
+    margin-top: 30px;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: skill-box1;
-    height: 40vh;
+    height: 320px;
   }
   .skill_container .skill_box1 h1 {
     font-size: 2rem;
@@ -891,7 +894,7 @@ body {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: skill-box2;
-    margin-top: -54px;
+    margin-top: -34px;
   }
   .skill_container .skill_box2 img {
     width: 100%;
@@ -910,7 +913,7 @@ body {
   .projects_container {
     padding: 10px 10px 50px 10px;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 740px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -931,7 +934,7 @@ body {
   .projects_container .box2 {
     display: -ms-grid;
     display: grid;
-    height: 80vh;
+    height: 80%;
     width: 95vw !important;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1014,7 +1017,7 @@ body {
   .contact_container {
     padding: 50px 20px 50px 20px;
     width: 100%;
-    min-height: 100vh;
+    min-height: 740px;
     background-color: #ffe0be;
   }
   .contact_container .contact_box {
@@ -1116,7 +1119,7 @@ body {
   .footer_container {
     padding: 0px 30px;
     width: 100%;
-    height: 10vh;
+    height: 74px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

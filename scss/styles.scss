@@ -673,8 +673,9 @@ body {
 
     .hero-container {
         padding: 50px 10px;
-        min-height: 100vh;
-        height: 110vh;
+        // min-height: 100vh;
+        min-height: 740px;
+        height: 810px;
         display: grid;
         grid-template-rows: .3fr 1fr 0.6fr;
         grid-template-columns: 1fr;
@@ -749,11 +750,12 @@ body {
     }
 
     .about_container {
-        min-height: 130vh;
+        min-height: 740px;
+        height: 810px;
         grid-gap: 30px;
-        padding: 10px 10px 30px 10px;
+        padding: 30px 10px 40px 10px;
         display: grid;
-        grid-template-rows: 0.6fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
         grid-template-areas:
             "about-box2"
@@ -769,7 +771,7 @@ body {
                 width: 100%;
                 height: 100%;
                 z-index: 2;
-                margin-top: -90px;
+                margin-top: -20px;
             }
 
             .about_circle {
@@ -785,7 +787,7 @@ body {
         }
 
         .about_box2 {
-            padding-top: 2.8rem;
+            padding-top: .5em;
             grid-area: about-box2;
 
             h1 {
@@ -810,11 +812,11 @@ body {
     }
 
     .skill_container {
-        //    margin-top: 100px;
-        padding: 35px 10px 50px 10px;
+           margin-top: 10px;
+        padding: 45px 10px 50px 10px;
         width: 100vw;
-        height: 115vh;
-        min-height: 100vh;
+        height: 740px;
+        min-height: 740px;
         display: grid;
         grid-template-rows: 0.7fr 0.6fr;
         grid-template-columns: 1fr;
@@ -827,8 +829,9 @@ body {
 
 
         .skill_box1 {
+            margin-top: 30px;
             grid-area: skill-box1;
-            height: 40vh;
+            height: 320px;
 
             h1 {
                 font-size: 2rem;
@@ -884,7 +887,7 @@ body {
             place-items: center;
             position: relative;
             grid-area: skill-box2;
-            margin-top: -54px;
+            margin-top: -34px;
 
             img {
                 width: 100%;
@@ -910,7 +913,7 @@ body {
         // margin-top: 50px;
         padding: 10px 10px 50px 10px;
         width: 100vw;
-        min-height: 100vh;
+        min-height: 740px;
         display: flex;
         flex-direction: column;
         background-color: $back-color;
@@ -928,7 +931,7 @@ body {
 
         .box2 {
             display: grid;
-            height: 80vh;
+            height: 80%;
             width: 95vw !important;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
@@ -1022,7 +1025,7 @@ body {
     .contact_container {
         padding: 50px 20px 50px 20px;
         width: 100%;
-        min-height: 100vh;
+        min-height: 740px;
         background-color: $primary-color;
 
         .contact_box {
@@ -1125,7 +1128,7 @@ body {
     .footer_container {
         padding: 0px 30px;
         width: 100%;
-        height: 10vh;
+        height: 74px;
         display: flex;
         flex-direction: column;
         background-color: $secondary-color;
