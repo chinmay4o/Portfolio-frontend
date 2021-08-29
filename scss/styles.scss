@@ -751,7 +751,7 @@ body {
     .about_container {
         min-height: 140vh;
         grid-gap: 30px;
-        padding: 10px 10px 50px 10px;
+        padding: 10px 10px 10px 10px;
         display: grid;
         grid-template-rows: 0.6fr 1fr;
         grid-template-columns: 1fr;
@@ -810,12 +810,12 @@ body {
 
     .skill_container {
         //    margin-top: 100px;
-        padding: 30px 10px 50px 10px;
+        padding: 20px 10px 50px 10px;
         width: 100vw;
         height: 115vh;
         min-height: 100vh;
         display: grid;
-        grid-template-rows: 1fr 0.6fr;
+        grid-template-rows: 0.7fr 0.6fr;
         grid-template-columns: 1fr;
         grid-template-areas:
             "skill-box1"
@@ -827,6 +827,7 @@ body {
 
         .skill_box1 {
             grid-area: skill-box1;
+            height: 40vh;
 
             h1 {
                 font-size: 2rem;
@@ -846,6 +847,7 @@ body {
                 grid-template-rows: 1fr;
                 width: 98%;
                 margin: 30px auto 0 auto;
+                padding-left: 10px;
 
                 .ul-first {
                     grid-area: ul-first;

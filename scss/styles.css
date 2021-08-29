@@ -760,7 +760,7 @@ body {
   .about_container {
     min-height: 140vh;
     grid-gap: 30px;
-    padding: 10px 10px 50px 10px;
+    padding: 10px 10px 10px 10px;
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 0.6fr 1fr;
@@ -816,14 +816,14 @@ body {
     padding: 15px;
   }
   .skill_container {
-    padding: 30px 10px 50px 10px;
+    padding: 20px 10px 50px 10px;
     width: 100vw;
     height: 115vh;
     min-height: 100vh;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 1fr 0.6fr;
-        grid-template-rows: 1fr 0.6fr;
+    -ms-grid-rows: 0.7fr 0.6fr;
+        grid-template-rows: 0.7fr 0.6fr;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: "skill-box1" "skill-box2";
@@ -834,6 +834,7 @@ body {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: skill-box1;
+    height: 40vh;
   }
   .skill_container .skill_box1 h1 {
     font-size: 2rem;
@@ -855,6 +856,7 @@ body {
         grid-template-rows: 1fr;
     width: 98%;
     margin: 30px auto 0 auto;
+    padding-left: 10px;
   }
   .skill_container .skill_box1 .ul .ul-first {
     -ms-grid-row: 1;
