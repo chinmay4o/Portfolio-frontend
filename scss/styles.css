@@ -793,7 +793,7 @@ body {
     left: 0px;
   }
   .about_container .about_box2 {
-    padding-top: 3.5rem;
+    padding-top: 2.8rem;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: about-box2;
@@ -875,10 +875,10 @@ body {
     list-style: none;
   }
   .skill_container .skill_box1 .ul ul li {
-    font-size: 1.2rem;
+    font-size: 1.13rem;
     color: #13593b;
     font-weight: 600;
-    padding: .5rem 0 0 0;
+    padding: .3rem 0 0 1rem;
   }
   .skill_container .skill_box2 {
     display: -ms-grid;
@@ -905,7 +905,7 @@ body {
     left: 0;
   }
   .projects_container {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 50px 10px;
     width: 100vw;
     min-height: 100vh;
     display: -webkit-box;
@@ -929,7 +929,7 @@ body {
     display: -ms-grid;
     display: grid;
     height: 80vh;
-    width: 100%;
+    width: 95vw !important;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr;
@@ -944,12 +944,17 @@ body {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: b1;
+    width: 97vw !important;
   }
   .projects_container .box2 .b1 h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #13593b;
     text-align: center;
     padding-bottom: 10px;
+  }
+  .projects_container .box2 .b1 div img {
+    width: 97% !important;
+    height: 200px;
   }
   .projects_container .box2 .b1 .projects_circle {
     height: 300px;
@@ -974,9 +979,11 @@ body {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: b2;
+    width: 97vw;
+    padding-top: 20px;
   }
   .projects_container .box2 .b2 h3 {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     color: #13593b;
     text-align: center;
     padding-bottom: 10px;
@@ -992,6 +999,10 @@ body {
     z-index: -1;
     opacity: .5;
     display: none;
+  }
+  .projects_container .box2 .b2 div img {
+    width: 97% !important;
+    height: 200px;
   }
   .projects_container .box2 .b2 video {
     z-index: 3;

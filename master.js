@@ -74,25 +74,25 @@ ScrollReveal({
   delay: 800,
 });
 
-ScrollReveal({
-  origin: "left",
-  distance: "40px",
-  duration: 1000,
-  reset: true,
-  opacity: null,
-}).reveal(".b1", {
-  delay: 600,
-});
+// ScrollReveal({
+//   origin: "left",
+//   distance: "40px",
+//   duration: 1000,
+//   reset: true,
+//   opacity: null,
+// }).reveal(".b1", {
+//   delay: 600,
+// });
 
-ScrollReveal({
-  origin: "right",
-  distance: "40px",
-  duration: 1000,
-  reset: true,
-  opacity: null,
-}).reveal(".b2", {
-  delay: 600,
-});
+// ScrollReveal({
+//   origin: "right",
+//   distance: "40px",
+//   duration: 1000,
+//   reset: true,
+//   opacity: null,
+// }).reveal(".b2", {
+//   delay: 600,
+// });
 
 ScrollReveal({
   origin: "right",
