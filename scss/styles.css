@@ -758,7 +758,7 @@ body {
     position: absolute;
   }
   .about_container {
-    min-height: 140vh;
+    min-height: 130vh;
     grid-gap: 30px;
     padding: 10px 10px 10px 10px;
     display: -ms-grid;
@@ -782,6 +782,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 2;
+    margin-top: -90px;
   }
   .about_container .about_box1 .about_circle {
     height: 330px;
