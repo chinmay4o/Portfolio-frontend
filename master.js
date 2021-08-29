@@ -113,3 +113,30 @@ ScrollReveal({
 }).reveal(".contact_box1", {
   delay: 600,
 });
+
+//onclick events;
+const home = document.querySelector(".nav_home");
+const about = document.querySelector(".nav_about");
+const work = document.querySelector(".nav_work");
+const skills = document.querySelector(".nav_skills");
+const contact = document.querySelector(".nav_contact");
+const ul = document.querySelector(".menu_ul");
+
+function ulStyle(e) {
+  ul.style.right = "-100%";
+}
+
+home.addEventListener("click" ,ulStyle);
+about.addEventListener("click" ,ulStyle);
+work.addEventListener("click" , ulStyle);
+skills.addEventListener("click" , ulStyle);
+contact.addEventListener("click" , ulStyle);
+
+
+
+
+
+
+
+
+

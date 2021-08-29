@@ -812,7 +812,7 @@ body {
     }
 
     .skill_container {
-           margin-top: 10px;
+        margin-top: 10px;
         padding: 45px 10px 50px 10px;
         width: 100vw;
         height: 740px;
@@ -822,8 +822,7 @@ body {
         grid-template-columns: 1fr;
         grid-template-areas:
             "skill-box1"
-            "skill-box2"
-        ;
+            "skill-box2";
         grid-gap: 20px;
         background-color: $back-color;
 
@@ -953,13 +952,13 @@ body {
                     padding-bottom: 10px;
                 }
 
-              div{
-                  img {
-                      width: 97% !important;
-                      height: 200px
-                  }
-              }
-    
+                div {
+                    img {
+                        width: 97% !important;
+                        height: 200px
+                    }
+                }
+
                 .projects_circle {
                     height: 300px;
                     width: 300px;
@@ -973,7 +972,7 @@ body {
                     display: none;
                 }
 
-            
+
                 video {
                     z-index: 3;
                     width: 90vw;
@@ -1006,7 +1005,8 @@ body {
                     opacity: .5;
                     display: none;
                 }
-                div{
+
+                div {
                     img {
                         width: 97% !important;
                         height: 200px
