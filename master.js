@@ -155,7 +155,7 @@ const message1 = document.querySelector(".con-message");
 
 function dataHandler() {
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", "http://localhost:5004/f1", true);
+  xhr.open("POST", "https://portfolio-backend4o.herokuapp.com/f1", true);
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.send(
     JSON.stringify({
