@@ -148,7 +148,7 @@ body {
             position: fixed;
             top: 70px;
             right: -100%;
-            background: #fff;
+            background-color: $primary-color;
             height: 100vh;
             width: 100%;
             background-image: url(../images/Report.svg);
@@ -608,6 +608,9 @@ body {
                     border: none;
                     border-bottom: 2px solid $text-color;
                     margin-bottom: 30px;
+                    font-family: poppins;
+                    font-size: 1.2rem;
+                    font-weight: 500
                 }
 
                 .contact_input1 {
@@ -1082,6 +1085,10 @@ body {
                         border: none;
                         border-bottom: 2px solid $text-color;
                         margin-bottom: 30px;
+                        font-family: poppins;
+                        font-size: 1.2rem;
+                        font-weight: 500;
+                        color: $text-color;
                     }
 
                     .contact_input1 {
@@ -1091,6 +1098,10 @@ body {
                         border: none;
                         border-bottom: 2px solid $text-color;
                         margin-bottom: 30px;
+                        font-family: poppins;
+                        font-size: 1.2rem;
+                        font-weight: 500;
+                        color: $text-color;
                     }
 
                     .contact_btn {

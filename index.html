@@ -41,7 +41,9 @@
         <!-- ========= hero section ======== -->
         <section class="hero-container" id="home">
           <div class="hero_social">
-            <a href="https://www.linkedin.com/in/chinmay4o" class="home_social-icon"
+            <a
+              href="https://www.linkedin.com/in/chinmay4o"
+              class="home_social-icon"
               ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
             </a>
             <a href="https://github.com/chinmay4o" class="home_social-icon"
@@ -152,20 +154,20 @@
               <h3>Student-Mentor Dashboard</h3>
 
               <div>
-                <img src="./images/project1.png" alt="">
+                <img src="./images/project1.png" alt="" />
                 <!-- <video
                   width="600px"
                   controls
                   src="https://youtu.be/RlkTo77nE18"
                   ></video> -->
-                </div>
-                <div class="projects_circle"></div>
               </div>
-              <div class="b2">
-                <h3>Url shortner</h3>
-                
-                <div>
-                <img src="./images/pro2.png" alt="">
+              <div class="projects_circle"></div>
+            </div>
+            <div class="b2">
+              <h3>Url shortner</h3>
+
+              <div>
+                <img src="./images/pro2.png" alt="" />
                 <!-- <video
                   width="600px"
                   controls
@@ -186,18 +188,23 @@
               <div class="contact_form-div">
                 <form class="contact_form1">
                   <label for="name">Name</label>
-                  <input type="text" class="contact_input" />
+                  <input type="text" class="contact_input con-name" required />
                   <label for="email">Email</label>
-                  <input type="email" class="contact_input" />
+                  <input
+                    type="email"
+                    class="contact_input con-email"
+                    required
+                  />
                   <label for="message">Message</label>
                   <textarea
                     name="messege"
                     id="mes"
                     cols="80"
                     rows="10"
-                    class="contact_input1"
+                    class="contact_input1 con-message"
+                    required
                   ></textarea>
-                  <button type="submit" class="contact_btn">submit</button>
+                  <button class="contact_btn">submit</button>
                 </form>
               </div>
             </div>
@@ -217,6 +224,7 @@
     </div>
 
     <script src="https://unpkg.com/scrollreveal"></script>
+
     <script src="master.js"></script>
   </body>
 </html>

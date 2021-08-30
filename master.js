@@ -1,12 +1,11 @@
-
 // ========= scroll navbar to bottom ===========
-const navbar = document.querySelector('.navbar');
+const navbar = document.querySelector(".navbar");
 window.onscroll = () => {
-    if (window.scrollY > 50) {
-        navbar.classList.add('nav-colored');
-    } else {
-        navbar.classList.remove('nav-colored');
-    }
+  if (window.scrollY > 50) {
+    navbar.classList.add("nav-colored");
+  } else {
+    navbar.classList.remove("nav-colored");
+  }
 };
 
 // =========== Scroll Reveal ===========
@@ -126,23 +125,55 @@ function ulStyle(e) {
   ul.style.right = "-100%";
 }
 
-home.addEventListener("click" ,ulStyle);
-about.addEventListener("click" ,ulStyle);
-work.addEventListener("click" , ulStyle);
-skills.addEventListener("click" , ulStyle);
-contact.addEventListener("click" , ulStyle);
-
+home.addEventListener("click", ulStyle);
+about.addEventListener("click", ulStyle);
+work.addEventListener("click", ulStyle);
+skills.addEventListener("click", ulStyle);
+contact.addEventListener("click", ulStyle);
 
 function ulClose() {
-  if(ul.style.right === "0px"){
+  if (ul.style.right === "0px") {
     ul.style.right = "-100%";
   } else {
     ul.style.right = "0px";
   }
 }
 
+// ajax request for mails
 
+const btn = document.querySelector(".contact_btn");
+btn.addEventListener("click", onSubmitHandler);
 
+function onSubmitHandler(e) {
+  e.preventDefault();
+  dataHandler();
+}
 
+const name1 = document.querySelector(".con-name");
+const email1 = document.querySelector(".con-email");
+const message1 = document.querySelector(".con-message");
 
+function dataHandler() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "http://localhost:5004/f1", true);
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.send(
+    JSON.stringify({
+      name: name1.value,
+      email: email1.value,
+      message: message1.value
+    })
+  );
+  xhr.onload = function() {
+    console.log("HELLO")
+    console.log(this.responseText);
+    var data = JSON.parse(this.responseText);
+    console.log(data);
+  }
 
+  name1.value ="";
+  email1.value = "";
+  message1.value = ""
+  console.log(name1.value);
+  console.log(email1.value);
+}
