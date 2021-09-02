@@ -476,88 +476,130 @@ body {
   display: grid;
   place-items: center;
   padding: 0.8rem;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   text-decoration: underline;
 }
 
-.projects_container .box2 {
+.projects_container .box2,
+.projects_container .box3 {
   display: -ms-grid;
   display: grid;
-  height: 500px;
-  width: 100%;
+  height: 400px;
+  width: 90%;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   position: relative;
+  margin: 0 auto;
 }
 
-.projects_container .box2 .b1 {
+.projects_container .box2 .b1,
+.projects_container .box3 .b1 {
   display: -ms-grid;
   display: grid;
   place-content: center;
 }
 
-.projects_container .box2 .b1 h3 {
-  font-size: 2rem;
+.projects_container .box2 .b1 h3,
+.projects_container .box3 .b1 h3 {
+  font-size: 1.8rem;
   font-weight: 600;
   color: #13593b;
   text-align: center;
   padding-bottom: 10px;
 }
 
-.projects_container .box2 .b1 img {
-  width: 600px;
-  height: 315px;
+.projects_container .box2 .b1 img,
+.projects_container .box3 .b1 img {
+  width: 550px;
+  height: 300px;
+  -webkit-box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.5);
 }
 
-.projects_container .box2 .b1 .projects_circle {
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
-  background-color: #ffe0be;
-  position: absolute;
-  top: 0;
-  left: 70px;
-  z-index: -1;
-  opacity: .5;
+.projects_container .box2 .b1 .projects_links,
+.projects_container .box3 .b1 .projects_links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  height: 50px;
+  padding: 20px 10px;
+  place-items: center;
 }
 
-.projects_container .box2 .b1 video {
-  z-index: 3;
+.projects_container .box2 .b1 .projects_links h4 i,
+.projects_container .box3 .b1 .projects_links h4 i {
+  color: #ff6f00;
 }
 
-.projects_container .box2 .b2 {
+.projects_container .box2 .b1 .projects_links h4 a,
+.projects_container .box3 .b1 .projects_links h4 a {
+  color: #09223c;
+  cursor: pointer;
+}
+
+.projects_container .box2 .b1 .projects_links h4 a:hover,
+.projects_container .box3 .b1 .projects_links h4 a:hover {
+  color: #ff6f00;
+}
+
+.projects_container .box2 .b2,
+.projects_container .box3 .b2 {
   display: -ms-grid;
   display: grid;
   place-content: center;
 }
 
-.projects_container .box2 .b2 h3 {
-  font-size: 2rem;
+.projects_container .box2 .b2 h3,
+.projects_container .box3 .b2 h3 {
+  font-size: 1.8rem;
   font-weight: 600;
   color: #13593b;
   text-align: center;
   padding-bottom: 10px;
 }
 
-.projects_container .box2 .b2 img {
-  width: 600px;
-  height: 315px;
+.projects_container .box2 .b2 img,
+.projects_container .box3 .b2 img {
+  width: 550px;
+  height: 300px;
+  -webkit-box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.5);
 }
 
-.projects_container .box2 .b2 .projects_circle {
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
-  background-color: #ffe0be;
-  position: absolute;
-  top: 0;
-  left: 70px;
-  z-index: -1;
-  opacity: .5;
+.projects_container .box2 .b2 .projects_links,
+.projects_container .box3 .b2 .projects_links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  height: 50px;
+  padding: 20px 10px;
+  place-items: center;
 }
 
-.projects_container .box2 .b2 video {
-  z-index: 3;
+.projects_container .box2 .b2 .projects_links h4 i,
+.projects_container .box3 .b2 .projects_links h4 i {
+  color: #ff6f00;
+}
+
+.projects_container .box2 .b2 .projects_links h4 a,
+.projects_container .box3 .b2 .projects_links h4 a {
+  color: #09223c;
+  cursor: pointer;
+}
+
+.projects_container .box2 .b2 .projects_links h4 a:hover,
+.projects_container .box3 .b2 .projects_links h4 a:hover {
+  color: #ff6f00;
+}
+
+.projects_container .box3 {
+  margin-top: 35px;
 }
 
 .contact_container {
@@ -934,7 +976,8 @@ body {
     padding-bottom: 2rem;
     text-decoration: underline;
   }
-  .projects_container .box2 {
+  .projects_container .box2,
+  .projects_container .box3 {
     display: -ms-grid;
     display: grid;
     height: 80%;
@@ -946,7 +989,8 @@ body {
         grid-template-areas: "b1" "b2";
     position: relative;
   }
-  .projects_container .box2 .b1 {
+  .projects_container .box2 .b1,
+  .projects_container .box3 .b1 {
     display: -ms-grid;
     display: grid;
     place-content: center;
@@ -955,33 +999,20 @@ body {
     grid-area: b1;
     width: 97vw !important;
   }
-  .projects_container .box2 .b1 h3 {
+  .projects_container .box2 .b1 h3,
+  .projects_container .box3 .b1 h3 {
     font-size: 1.2rem;
     color: #13593b;
     text-align: center;
     padding-bottom: 10px;
   }
-  .projects_container .box2 .b1 div img {
+  .projects_container .box2 .b1 div img,
+  .projects_container .box3 .b1 div img {
     width: 97% !important;
     height: 200px;
   }
-  .projects_container .box2 .b1 .projects_circle {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background-color: #ffe0be;
-    position: absolute;
-    top: 0;
-    left: 0px;
-    z-index: -1;
-    opacity: .5;
-    display: none;
-  }
-  .projects_container .box2 .b1 video {
-    z-index: 3;
-    width: 90vw;
-  }
-  .projects_container .box2 .b2 {
+  .projects_container .box2 .b2,
+  .projects_container .box3 .b2 {
     display: -ms-grid;
     display: grid;
     place-content: center;
@@ -991,31 +1022,17 @@ body {
     width: 97vw;
     padding-top: 20px;
   }
-  .projects_container .box2 .b2 h3 {
+  .projects_container .box2 .b2 h3,
+  .projects_container .box3 .b2 h3 {
     font-size: 1.25rem;
     color: #13593b;
     text-align: center;
     padding-bottom: 10px;
   }
-  .projects_container .box2 .b2 .projects_circle {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background-color: #ffe0be;
-    position: absolute;
-    top: 0;
-    left: 0px;
-    z-index: -1;
-    opacity: .5;
-    display: none;
-  }
-  .projects_container .box2 .b2 div img {
+  .projects_container .box2 .b2 div img,
+  .projects_container .box3 .b2 div img {
     width: 97% !important;
     height: 200px;
-  }
-  .projects_container .box2 .b2 video {
-    z-index: 3;
-    width: 90vw;
   }
   .contact_container {
     padding: 50px 20px 50px 20px;

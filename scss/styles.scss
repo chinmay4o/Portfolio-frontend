@@ -25,6 +25,7 @@ html {
 /* ========== navbar =========== */
 body {
     font-family: Poppins;
+
 }
 
 /* ============ navbar ============= */
@@ -466,26 +467,28 @@ body {
             display: grid;
             place-items: center;
             padding: 0.8rem;
-            padding-bottom: 4rem;
+            padding-bottom: 3rem;
             text-decoration: underline;
         }
     }
 
-    .box2 {
+    .box2,
+    .box3 {
         display: grid;
         // border: 2px solid $text-color;
         // border-radius: 10px;
-        height: 500px;
-        width: 100%;
+        height: 400px;
+        width: 90%;
         grid-template-columns: 1fr 1fr;
         position: relative;
+        margin: 0 auto;
 
         .b1 {
             display: grid;
             place-content: center;
 
             h3 {
-                font-size: 2rem;
+                font-size: 1.8rem;
                 font-weight: 600;
                 color: $text-color;
                 text-align: center;
@@ -493,24 +496,36 @@ body {
             }
 
             img {
-                width: 600px;
-                height: 315px;
+                width: 550px;
+                height: 300px;
+                box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.5);
             }
 
-            .projects_circle {
-                height: 500px;
-                width: 500px;
-                border-radius: 50%;
-                background-color: $primary-color;
-                position: absolute;
-                top: 0;
-                left: 70px;
-                z-index: -1;
-                opacity: .5;
-            }
+            .projects_links {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                height: 50px;
+                padding: 20px 10px;
+                place-items: center;
 
-            video {
-                z-index: 3;
+                h4 {
+                    i {
+                        color: #ff6f00;
+
+                    }
+
+                    a {
+
+                        color: #09223c;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #ff6f00;
+
+                        }
+                    }
+                }
             }
         }
 
@@ -519,7 +534,7 @@ body {
             place-content: center;
 
             h3 {
-                font-size: 2rem;
+                font-size: 1.8rem;
                 font-weight: 600;
                 color: $text-color;
                 text-align: center;
@@ -527,26 +542,41 @@ body {
             }
 
             img {
-                width: 600px;
-                height: 315px
+                width: 550px;
+                height: 300px;
+                box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.5);
             }
 
-            .projects_circle {
-                height: 500px;
-                width: 500px;
-                border-radius: 50%;
-                background-color: $primary-color;
-                position: absolute;
-                top: 0;
-                left: 70px;
-                z-index: -1;
-                opacity: .5;
-            }
+            .projects_links {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                height: 50px;
+                padding: 20px 10px;
+                place-items: center;
 
-            video {
-                z-index: 3;
+                h4 {
+                    i {
+                        color: #ff6f00;
+                    }
+
+                    a {
+
+                        color: #09223c;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #ff6f00;
+
+                        }
+                    }
+                }
             }
         }
+    }
+
+    .box3 {
+        margin-top: 35px;
     }
 }
 
@@ -912,7 +942,6 @@ body {
 
 
     .projects_container {
-        // margin-top: 50px;
         padding: 10px 10px 50px 10px;
         width: 100vw;
         min-height: 740px;
@@ -931,7 +960,8 @@ body {
             }
         }
 
-        .box2 {
+        .box2,
+        .box3 {
             display: grid;
             height: 80%;
             width: 95vw !important;
@@ -961,25 +991,6 @@ body {
                         height: 200px
                     }
                 }
-
-                .projects_circle {
-                    height: 300px;
-                    width: 300px;
-                    border-radius: 50%;
-                    background-color: $primary-color;
-                    position: absolute;
-                    top: 0;
-                    left: 0px;
-                    z-index: -1;
-                    opacity: .5;
-                    display: none;
-                }
-
-
-                video {
-                    z-index: 3;
-                    width: 90vw;
-                }
             }
 
             .b2 {
@@ -996,29 +1007,11 @@ body {
                     padding-bottom: 10px;
                 }
 
-                .projects_circle {
-                    height: 300px;
-                    width: 300px;
-                    border-radius: 50%;
-                    background-color: $primary-color;
-                    position: absolute;
-                    top: 0;
-                    left: 0px;
-                    z-index: -1;
-                    opacity: .5;
-                    display: none;
-                }
-
                 div {
                     img {
                         width: 97% !important;
                         height: 200px
                     }
-                }
-
-                video {
-                    z-index: 3;
-                    width: 90vw;
                 }
             }
         }
