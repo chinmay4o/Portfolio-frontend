@@ -1,10 +1,13 @@
 // ========= scroll navbar to bottom ===========
 const navbar = document.querySelector(".navbar");
+const navParent = document.querySelector("#nav-parent");
 window.onscroll = () => {
   if (window.scrollY > 50) {
     navbar.classList.add("nav-colored");
+    navParent.classList.add("nav-colored");
   } else {
     navbar.classList.remove("nav-colored");
+    navParent.classList.remove("nav-colored");
   }
 };
 
