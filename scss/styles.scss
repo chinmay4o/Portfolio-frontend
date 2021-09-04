@@ -25,7 +25,7 @@ html {
 /* ========== navbar =========== */
 body {
     font-family: Poppins;
-
+    overflow-x: hidden;
 }
 
 /* ============ navbar ============= */
@@ -53,6 +53,7 @@ body {
     margin: 0px auto 0 auto;
     background-color: #ffccac;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 
@@ -70,6 +71,7 @@ body {
     background-color: #fff;
     border-bottom: 1px solid #ff9f38;
     z-index: 10;
+   
 
     .navbar {
         display: flex;
@@ -85,6 +87,7 @@ body {
         justify-content: space-between;
         flex-wrap: wrap;
         z-index: 10;
+      
 
         .logo {
             color: $text-color;
@@ -760,8 +763,10 @@ body {
 // ========== media queries =========
 
 @media only screen and (max-width: 550px) {
+
     #parent {
         margin-top: 10px;
+        // overflow-x: hidden;
     }
 
     .hero-container {
@@ -1090,6 +1095,7 @@ body {
         background-color: $primary-color;
 
         .contact_box {
+            width: 100%;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr .7fr;
@@ -1176,8 +1182,7 @@ body {
             }
 
             .contact_box2 {
-                //    border: 2px solid #000;
-                position: relative;
+                position: static;
                 display: grid;
                 place-items: center;
                 grid-area: img;
@@ -1186,7 +1191,7 @@ body {
                     width: 90%;
                     height: 90%;
                     z-index: 3;
-                    position: absolute;
+                    position: static;
                     left: 20px
                 }
             }

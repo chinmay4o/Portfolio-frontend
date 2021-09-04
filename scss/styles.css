@@ -16,6 +16,7 @@ html {
 /* ========== navbar =========== */
 body {
   font-family: Poppins;
+  overflow-x: hidden;
 }
 
 /* ============ navbar ============= */
@@ -40,6 +41,7 @@ body {
   margin: 0px auto 0 auto;
   background-color: #ffccac;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 /* ============ Nav container ============ */
@@ -1126,6 +1128,7 @@ body {
     background-color: #ffe0be;
   }
   .contact_container .contact_box {
+    width: 100%;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
@@ -1214,7 +1217,7 @@ body {
     margin-top: 20px;
   }
   .contact_container .contact_box .contact_box2 {
-    position: relative;
+    position: static;
     display: -ms-grid;
     display: grid;
     place-items: center;
@@ -1226,7 +1229,7 @@ body {
     width: 90%;
     height: 90%;
     z-index: 3;
-    position: absolute;
+    position: static;
     left: 20px;
   }
   .footer_container {
