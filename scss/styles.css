@@ -1282,7 +1282,7 @@ body {
   }
   .footer_container h5 {
     padding-top: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
   }
   .footer_container .footer_social {
@@ -1300,7 +1300,7 @@ body {
   }
   .footer_container .footer_social a i {
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
