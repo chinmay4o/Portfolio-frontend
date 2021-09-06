@@ -479,11 +479,16 @@ body {
                     color: $text-color;
                     padding: .5rem 0 0 0;
                 }
-
-                .skill-curr{
-                    font-size: 1.35rem;
-                }
             }
+
+        }
+        .skills-curr{
+            color: $text-color;
+            font-family: $primary-font;
+            font-weight: 500;
+            width: 600px;
+            margin: 20px 0 0 167px;
+            font-size: 1.4rem;
         }
 
     }
@@ -943,8 +948,8 @@ body {
         margin-top: 10px;
         padding: 45px 10px 50px 10px;
         width: 100vw;
-        height: 740px;
-        min-height: 780px;
+        min-height: 740px;
+        height: 827px;
         display: grid;
         grid-template-rows: 0.7fr 0.6fr;
         grid-template-columns: 1fr;
@@ -958,7 +963,7 @@ body {
         .skill_box1 {
             margin-top: 30px;
             grid-area: skill-box1;
-            height: 345px;
+            height: 385px;
 
             h1 {
                 font-size: 2rem;
@@ -1010,6 +1015,15 @@ body {
                     }
                 }
 
+            }
+
+            .skills-curr{
+                color: $text-color;
+                font-family: $primary-font;
+                font-weight: 600;
+                width: 98%;
+                margin: 20px 0 0 20px;
+                font-size: 1.12rem;
             }
 
         }

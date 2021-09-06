@@ -508,8 +508,13 @@ body {
   padding: .5rem 0 0 0;
 }
 
-.skill_container .skill_box1 .ul ul .skill-curr {
-  font-size: 1.35rem;
+.skill_container .skill_box1 .skills-curr {
+  color: #13593b;
+  font-family: Montserrat;
+  font-weight: 500;
+  width: 600px;
+  margin: 20px 0 0 167px;
+  font-size: 1.4rem;
 }
 
 .skill_container .skill_box2 {
@@ -981,8 +986,8 @@ body {
     margin-top: 10px;
     padding: 45px 10px 50px 10px;
     width: 100vw;
-    height: 740px;
-    min-height: 780px;
+    min-height: 740px;
+    height: 827px;
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 0.7fr 0.6fr;
@@ -998,7 +1003,7 @@ body {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: skill-box1;
-    height: 345px;
+    height: 385px;
   }
   .skill_container .skill_box1 h1 {
     font-size: 2rem;
@@ -1048,6 +1053,14 @@ body {
   }
   .skill_container .skill_box1 .ul ul .skill-curr {
     display: none;
+  }
+  .skill_container .skill_box1 .skills-curr {
+    color: #13593b;
+    font-family: Montserrat;
+    font-weight: 600;
+    width: 98%;
+    margin: 20px 0 0 20px;
+    font-size: 1.12rem;
   }
   .skill_container .skill_box2 {
     display: -ms-grid;
