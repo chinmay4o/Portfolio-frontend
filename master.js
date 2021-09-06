@@ -20,7 +20,7 @@ const sr = ScrollReveal({
   opacity: null,
 });
 
-// =========== all boxes ===========
+// =========== all layout boxes ===========
 sr.reveal(".hero_img", { delay: 800 });
 sr.reveal(".hero_title", { delay: 500 });
 sr.reveal(".hero_social", { delay: 500 });
@@ -143,7 +143,6 @@ function ulClose() {
 }
 
 // ajax request for mails
-
 const btn = document.querySelector(".contact_btn");
 btn.addEventListener("click", onSubmitHandler);
 
