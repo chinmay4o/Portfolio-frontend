@@ -415,6 +415,7 @@ body {
             display: block;
             padding: 2rem 4.5rem 0 8.5rem;
         }
+
     }
 }
 
@@ -489,6 +490,20 @@ body {
             width: 600px;
             margin: 20px 0 0 167px;
             font-size: 1.4rem;
+
+            .resume_link{
+                display: inline-block;
+                font-size: 1.1rem;
+                color: #09223c;
+                font-weight: 700;
+                cursor: pointer;
+                margin-top: 20px;
+
+                &:hover {
+                    color: #ff6f00;
+
+                }
+            }
         }
 
     }
@@ -949,7 +964,7 @@ body {
         padding: 45px 10px 50px 10px;
         width: 100vw;
         min-height: 740px;
-        height: 827px;
+        height: 894px;
         display: grid;
         grid-template-rows: 0.7fr 0.6fr;
         grid-template-columns: 1fr;
@@ -963,7 +978,7 @@ body {
         .skill_box1 {
             margin-top: 30px;
             grid-area: skill-box1;
-            height: 385px;
+            height: 439px;
 
             h1 {
                 font-size: 2rem;
