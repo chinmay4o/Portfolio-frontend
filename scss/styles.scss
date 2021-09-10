@@ -559,7 +559,7 @@ body {
     }
 
     .box2,
-    .box3 {
+    .box3, .box4 {
         display: grid;
         // border: 2px solid $text-color;
         // border-radius: 10px;
@@ -661,7 +661,7 @@ body {
         }
     }
 
-    .box3 {
+    .box3, .box4 {
         margin-top: 35px;
     }
 }
@@ -1092,7 +1092,7 @@ body {
         }
 
         .box2,
-        .box3 {
+        .box3, .box4 {
             display: grid;
             height: 80%;
             width: 95vw !important;

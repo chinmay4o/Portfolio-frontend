@@ -581,7 +581,7 @@ body {
 }
 
 .projects_container .box2,
-.projects_container .box3 {
+.projects_container .box3, .projects_container .box4 {
   display: -ms-grid;
   display: grid;
   height: 400px;
@@ -593,14 +593,14 @@ body {
 }
 
 .projects_container .box2 .b1,
-.projects_container .box3 .b1 {
+.projects_container .box3 .b1, .projects_container .box4 .b1 {
   display: -ms-grid;
   display: grid;
   place-content: center;
 }
 
 .projects_container .box2 .b1 h3,
-.projects_container .box3 .b1 h3 {
+.projects_container .box3 .b1 h3, .projects_container .box4 .b1 h3 {
   font-size: 1.8rem;
   font-weight: 600;
   color: #13593b;
@@ -609,7 +609,7 @@ body {
 }
 
 .projects_container .box2 .b1 img,
-.projects_container .box3 .b1 img {
+.projects_container .box3 .b1 img, .projects_container .box4 .b1 img {
   width: 550px;
   height: 300px;
   -webkit-box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.5);
@@ -617,7 +617,7 @@ body {
 }
 
 .projects_container .box2 .b1 .projects_links,
-.projects_container .box3 .b1 .projects_links {
+.projects_container .box3 .b1 .projects_links, .projects_container .box4 .b1 .projects_links {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -630,30 +630,30 @@ body {
 }
 
 .projects_container .box2 .b1 .projects_links h4 i,
-.projects_container .box3 .b1 .projects_links h4 i {
+.projects_container .box3 .b1 .projects_links h4 i, .projects_container .box4 .b1 .projects_links h4 i {
   color: #ff6f00;
 }
 
 .projects_container .box2 .b1 .projects_links h4 a,
-.projects_container .box3 .b1 .projects_links h4 a {
+.projects_container .box3 .b1 .projects_links h4 a, .projects_container .box4 .b1 .projects_links h4 a {
   color: #09223c;
   cursor: pointer;
 }
 
 .projects_container .box2 .b1 .projects_links h4 a:hover,
-.projects_container .box3 .b1 .projects_links h4 a:hover {
+.projects_container .box3 .b1 .projects_links h4 a:hover, .projects_container .box4 .b1 .projects_links h4 a:hover {
   color: #ff6f00;
 }
 
 .projects_container .box2 .b2,
-.projects_container .box3 .b2 {
+.projects_container .box3 .b2, .projects_container .box4 .b2 {
   display: -ms-grid;
   display: grid;
   place-content: center;
 }
 
 .projects_container .box2 .b2 h3,
-.projects_container .box3 .b2 h3 {
+.projects_container .box3 .b2 h3, .projects_container .box4 .b2 h3 {
   font-size: 1.8rem;
   font-weight: 600;
   color: #13593b;
@@ -662,7 +662,7 @@ body {
 }
 
 .projects_container .box2 .b2 img,
-.projects_container .box3 .b2 img {
+.projects_container .box3 .b2 img, .projects_container .box4 .b2 img {
   width: 550px;
   height: 300px;
   -webkit-box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.5);
@@ -670,7 +670,7 @@ body {
 }
 
 .projects_container .box2 .b2 .projects_links,
-.projects_container .box3 .b2 .projects_links {
+.projects_container .box3 .b2 .projects_links, .projects_container .box4 .b2 .projects_links {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -683,22 +683,22 @@ body {
 }
 
 .projects_container .box2 .b2 .projects_links h4 i,
-.projects_container .box3 .b2 .projects_links h4 i {
+.projects_container .box3 .b2 .projects_links h4 i, .projects_container .box4 .b2 .projects_links h4 i {
   color: #ff6f00;
 }
 
 .projects_container .box2 .b2 .projects_links h4 a,
-.projects_container .box3 .b2 .projects_links h4 a {
+.projects_container .box3 .b2 .projects_links h4 a, .projects_container .box4 .b2 .projects_links h4 a {
   color: #09223c;
   cursor: pointer;
 }
 
 .projects_container .box2 .b2 .projects_links h4 a:hover,
-.projects_container .box3 .b2 .projects_links h4 a:hover {
+.projects_container .box3 .b2 .projects_links h4 a:hover, .projects_container .box4 .b2 .projects_links h4 a:hover {
   color: #ff6f00;
 }
 
-.projects_container .box3 {
+.projects_container .box3, .projects_container .box4 {
   margin-top: 35px;
 }
 
@@ -1123,7 +1123,7 @@ body {
     text-decoration: underline;
   }
   .projects_container .box2,
-  .projects_container .box3 {
+  .projects_container .box3, .projects_container .box4 {
     display: -ms-grid;
     display: grid;
     height: 80%;
@@ -1136,7 +1136,7 @@ body {
     position: relative;
   }
   .projects_container .box2 .b1,
-  .projects_container .box3 .b1 {
+  .projects_container .box3 .b1, .projects_container .box4 .b1 {
     display: -ms-grid;
     display: grid;
     place-content: center;
@@ -1146,19 +1146,19 @@ body {
     width: 97vw !important;
   }
   .projects_container .box2 .b1 h3,
-  .projects_container .box3 .b1 h3 {
+  .projects_container .box3 .b1 h3, .projects_container .box4 .b1 h3 {
     font-size: 1.2rem;
     color: #13593b;
     text-align: center;
     padding-bottom: 10px;
   }
   .projects_container .box2 .b1 div img,
-  .projects_container .box3 .b1 div img {
+  .projects_container .box3 .b1 div img, .projects_container .box4 .b1 div img {
     width: 97% !important;
     height: 200px;
   }
   .projects_container .box2 .b2,
-  .projects_container .box3 .b2 {
+  .projects_container .box3 .b2, .projects_container .box4 .b2 {
     display: -ms-grid;
     display: grid;
     place-content: center;
@@ -1169,14 +1169,14 @@ body {
     padding-top: 20px;
   }
   .projects_container .box2 .b2 h3,
-  .projects_container .box3 .b2 h3 {
+  .projects_container .box3 .b2 h3, .projects_container .box4 .b2 h3 {
     font-size: 1.25rem;
     color: #13593b;
     text-align: center;
     padding-bottom: 10px;
   }
   .projects_container .box2 .b2 div img,
-  .projects_container .box3 .b2 div img {
+  .projects_container .box3 .b2 div img, .projects_container .box4 .b2 div img {
     width: 97% !important;
     height: 200px;
   }
