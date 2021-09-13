@@ -281,8 +281,8 @@ body {
 
 .hero-container .hero_box1 .hero_title h1 .hero-hand {
   display: inline-block;
-  -webkit-animation: hand .8s infinite alternate ease;
-          animation: hand .8s infinite alternate ease;
+  -webkit-animation: hand .7s infinite alternate ease-in-out;
+          animation: hand .7s infinite alternate ease-in-out;
 }
 
 @-webkit-keyframes hand {

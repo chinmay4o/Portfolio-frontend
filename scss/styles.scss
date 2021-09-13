@@ -269,7 +269,7 @@ body {
 
                 .hero-hand {
                     display: inline-block;
-                    animation: hand .5s infinite alternate ease;
+                    animation: hand .7s infinite alternate ease-in-out;
                 }
 
                 @keyframes hand {
